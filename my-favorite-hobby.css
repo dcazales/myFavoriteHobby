@@ -1,0 +1,158 @@
+
+
+body {background-color:Black;}
+
+.Art { 
+	width:1150px;
+	height:250px;
+		}
+
+h1   {
+ 	  margin-top: 0px;
+ 	  margin-bottom: 50px;
+	  text-align: center;
+	  color: SeaGreen;
+	  font-family: Lucida Console;
+	  font-size: 85px;
+	  }
+
+div {
+ 	 width: 50px;
+ 	 height: 50px;
+ 	 font-family: cursive;
+ 	 background: black;
+ 	 transition: width 3s, height 5s;
+ 	 font-size: 49px;
+ 	 color: white;
+ 	 margin-left: 60px;
+ 	 padding-bottom: 30px;
+ 	}
+
+div:hover {
+	margin-left: 60px;
+	background: seagreen;
+  	width: 400px;
+  	height: 120px;
+  	font-size: 80px;
+  	padding-bottom: 30px;
+	}
+
+p    {color: white;
+      font-family: Comic Sans Ms;
+      text-align: justify;
+      margin-right: 60px;
+      margin-left: 20px;
+      padding-top: 30px;
+  	}
+
+
+.MCRLogo { 
+	width:120px;
+	height:120px;
+	float: right;
+	padding: 20px;
+	}
+
+table, th, td {
+	margin-left: 100px;
+	color: white;
+	border: 2.5px solid SeaGreen;
+	border-collapse: collapse;
+	margin-bottom: 50px;
+	}	
+
+th, td{
+	text-align: center;
+	}
+
+dl   {color: white;
+      font-family: Comic Sans Ms;}
+
+
+.Fish { 
+	width:500px;
+	height:230px;
+	margin-left:90px;
+	padding:25px;
+	}
+.FinishFish{ 
+	width:500px;
+	height:230px;
+	float: left;
+	padding: 30px;
+	
+  	}	
+
+.Frankie{ 
+	width:240px;
+	height:320px;
+	float: right;
+	margin-right: 70px;
+	}
+.Vegeta{ 
+	width:260px;
+	height:320px;
+	float: right;
+	margin-right: 140px;
+	margin-left: 0px;
+	}				
+.Tree{ 
+	width:255px;
+	height:320px;
+	margin-left: 60px;
+	margin-bottom: 30px;
+	}	
+.Pikachu{ 
+	width:250px;
+	height:320px;
+	float: left;
+	margin-left: 60px;
+	}	
+.DBZ{ 
+	width:350px;
+	height:320px;
+	float: left;
+	margin-left: 60px;
+	padding-bottom: 60px;
+	}	
+
+.ReferencePic{ 
+	width:170px;
+	height:300px;
+	margin-left:60px; 
+	}	
+.Painting{ 
+	width:230px;
+	height:300px;
+	}
+
+ul{
+	color: SeaGreen;
+	margin-left: 90px;
+	}
+
+#image {
+  width:200px;
+  height:281px;
+  transition: background-image 1s ease-in-out;
+  background-image:url("MeOriginal.jpg");
+}
+
+#image:hover {
+  background-image:url("SelfFinish.jpg");
+}
+
+div.last {
+  float: right;	
+  padding: 30px;
+  width: 450px;
+  height: 100px;
+  background-color: Seagreen;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(10deg);
+}
+
+
+
+
+
